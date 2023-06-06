@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    line-height: 1.6;
+    font-weight: 500;
+    background-color: darkblue;
+    color: white;
+}
+.timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    font-size: 6rem;
+    gap: 1rem;
+    background-color: darkblue;
+    border: 2px solid #fff;
+    width: fit-content;
+    text-align: center;
+    margin-left: 23rem;
+    padding: 1.75rem;
+
+}
+.hour{
+    color: yellow;
+}
+.min{
+    color: cyan;
+}
+.sec{
+    color: orangered;
+}
+.cade{
+    font-size: 3rem;
+    color: yellowgreen;
+}
